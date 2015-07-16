@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/tharnstr.jar clojure.main -m tharnstr.core
