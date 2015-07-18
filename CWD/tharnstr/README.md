@@ -16,8 +16,8 @@ To start a web server for the application, run:
 
 ## Misc Notes
 
-  Timbre - full clojure library for logging (very fast and many appender's)
-  Appenders - anything that emits logging statements to a destination
+  -Timbre - full clojure library for logging (very fast and many appender's)
+  -Appenders - anything that emits logging statements to a destination
 
 ## License
 
