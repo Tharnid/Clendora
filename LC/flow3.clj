@@ -7,3 +7,5 @@
 
 ;; destructuring allows you to assign named bindings for the elements in things like vectors or maps
 
+(let [[color size] ["blue" "small"]]
+  (str "The " color " door is " size))
