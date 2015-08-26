@@ -10,3 +10,9 @@
 
 ;; false nil
 
+(if (empty? x)
+  nil
+  (do
+    (println "OK!!!")
+    :ok))
+
