@@ -21,3 +21,14 @@
 (rand-int 100)
 
 (repeat 5 (rand-int 10))
+
+;; repeatedly takes the function that will be repeated over
+;; generates a new random int for every element we ask for (neat)
+
+(repeatedly 10 #(rand-int 10))
+
+(take 10 (repeatedly #(rand-int 10)))
+
+(take 6 (cycle ["big" "small"]))
+
+(take 3 (rest (cycle ["big" "small"])))
